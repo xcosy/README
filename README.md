@@ -42,17 +42,17 @@ Commit Message 标准格式：
 * **Step 3、发布RELEASE版本**
 
   ```shell
-  # 打标签
-  git tag v0.1.0
-  
-  # 生成与上一个标签 commit 信息产生的 Change Log
+  # 生成与上一个标签之间 commit 信息产生的 Change Log
   conventional-changelog -p angular -i CHANGELOG.md -s
   # 生成所有 commit 信息产生的 Change Log，其中 -r 表示生成 changelog 所需要使用的 release 版本数量，默认为1，全部则是0。
   conventional-changelog -p angular -i CHANGELOG.md -s -r 0
   
+  # 打标签
+  git tag v0.1.0
+  
   git push --follow-tags origin master
   ```
-* **将生成的CHANGELOG.md对应内容复制到Github Release Note**
+* **Step 4、将生成的CHANGELOG.md对应内容复制到Github Release Note**
   <img width="1060" alt="截屏2021-04-26 上午12 14 02" src="https://user-images.githubusercontent.com/26103839/116000935-ca6b5f80-a624-11eb-8ac6-07b3e4b12211.png">
 
 
