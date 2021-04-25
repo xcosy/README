@@ -8,7 +8,7 @@
 
 
 ## <span id="role01">规范你的commit message</span>
-> 流行的方案是约定式提交规范（Conventional Commits），它受到了[Angular提交准则]()的启发，并在很大程度上以其为依据。
+> 流行的方案是约定式提交规范（Conventional Commits），它受到了[Angular提交准则](https://github.com/xcosy/README/blob/master/Git%20Commit%20Message%20Conventions.pdf)的启发，并在很大程度上以其为依据。
 
 Commit Message 标准格式：
 ```shell
