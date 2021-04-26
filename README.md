@@ -4,14 +4,19 @@
 ---
 
 ## Roles List
-1. [规范你的commit message](#role01)
+1. [公开身份，方便其它成员联系你](#role01)
+2. [规范你的commit message](#role02)
 
+<br><br><br>
 
 ## <span id="role01">公开身份，方便成员联系你</span>
 
+查看设置：[公开或隐藏组织成员关系
+](https://docs.github.com/cn/github/setting-up-and-managing-your-github-user-account/publicizing-or-hiding-organization-membership)
 
+<br>
 
-## <span id="role01">规范你的commit message</span>
+## <span id="role02">规范你的commit message</span>
 
 ### 约定式提交规范
 
